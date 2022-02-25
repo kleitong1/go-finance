@@ -7,7 +7,7 @@ export function Dashboard (){
     return (
         <Conteiner>
 
-            <Texto>Olá, tudo bem? </Texto>
+            <Texto>Olá, tudo bem? Show </Texto>
 
 
         </Conteiner>
