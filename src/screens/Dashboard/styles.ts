@@ -5,20 +5,29 @@ import styled from "styled-components/native";
 export const Conteiner = styled.View` 
     
     flex: 1;
-    justify-content: center;
-    align-items: center; 
+    /* justify-content: center;
+    align-items: center;  */
     
     background-color: ${({ theme }) => theme.cores.fundo};
     
 
 `;
 
-export const Texto = styled.Text`
-    font-family: ${({theme}) => theme.fonts.bold};
-    color:  ${({theme}) => theme.cores.texto};
-    font-size: 24px;
-    font-weight: bold;
+export const Header = styled.View`
+    width: 100%;
+    height: 278px;
+
+    
+    background-color: ${({theme}) => theme.cores.primario};
+`
+
+// export const Texto = styled.Text`
+//     font-family: ${({theme}) => theme.fonts.bold};
+//     color:  ${({theme}) => theme.cores.texto};
+//     font-size: 24px;
+//     font-weight: bold;
 
 
-`;
+// `;
+
 

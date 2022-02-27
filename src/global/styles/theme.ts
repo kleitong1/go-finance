@@ -17,7 +17,7 @@ export default {
 
         forma: '#FFFFFF',
         titulo: '#363F5F',
-        texto: '#969CB2',
+        texto: '#000',
         fundo: '#FFF'
     },
 

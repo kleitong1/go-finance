@@ -2,6 +2,9 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components/native';
 
+import { StatusBar } from 'react-native';
+
+
 import {
   useFonts, // hook
   Poppins_400Regular,
@@ -19,6 +22,8 @@ import AppLoading from 'expo-app-loading';
 
 export default function App() {
 
+  
+
   const [fontsLoaded] = useFonts({
     Poppins_400Regular,
     Poppins_500Medium,
@@ -32,8 +37,18 @@ export default function App() {
 
 
   return (
+    <>
+    <StatusBar barStyle="light-content" />
+    
+    
+    
     <ThemeProvider theme={theme}>
       <Dashboard />
     </ThemeProvider>
+
+
+    </>
   )
+
+  
 }

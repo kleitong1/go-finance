@@ -1,13 +1,21 @@
 import React from "react";
+import { Text } from "react-native"; 
+
+import { 
+    Conteiner, 
+    Header
 
 
-import { Conteiner, Texto } from "./styles";
+} from "./styles";
 
 export function Dashboard (){
     return (
         <Conteiner>
 
-            <Texto>Olá, tudo bem? Show </Texto>
+            <Header>
+                
+
+            </Header>
 
 
         </Conteiner>
