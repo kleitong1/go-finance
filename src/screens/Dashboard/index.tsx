@@ -1,9 +1,16 @@
 import React from "react";
-import { Text } from "react-native"; 
+ 
 
 import { 
     Conteiner, 
-    Header
+    Header,
+    UserInfo,
+    Photo,
+    UserGreeting,
+    UserName,
+    User,
+    UserContainer,
+    Icon
 
 
 } from "./styles";
@@ -11,10 +18,23 @@ import {
 export function Dashboard (){
     return (
         <Conteiner>
-
+            
             <Header>
-                
+                <UserContainer>
+                <UserInfo>
+                  <Photo 
+                  source={{uri: 'https://github.com/kleitong1.png' }}
+                  />
+                  <User>
+                      <UserGreeting>Olá, </UserGreeting>
+                      <UserName>Kleiton</UserName>
+                  </User>
 
+                </UserInfo>
+
+                <Icon name="power" />
+                </UserContainer>
+                
             </Header>
 
 
