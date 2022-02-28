@@ -1,6 +1,6 @@
 import styled from "styled-components/native";
 import { RFPercentage, RFValue } from "react-native-responsive-fontsize"; /* yarn add react-native-responsive-fontsize */
-import theme from "../../global/styles/theme";
+/* import theme from "../../global/styles/theme"; */
 import { Feather } from '@expo/vector-icons'; // importando icones
 
 // crase = literal string. 
@@ -84,7 +84,7 @@ export const Header = styled.View`
     
     `;
 
-
+export const HighlightCards = styled.ScrollView``;
 
 //  export const Texto = styled.Text`
 //      font-family: ${({theme}) => theme.fonts.bold};

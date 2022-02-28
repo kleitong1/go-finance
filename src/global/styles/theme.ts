@@ -16,9 +16,12 @@ export default {
 
 
         forma: '#FFFFFF',
+
         titulo: '#363F5F',
-        texto: '#000',
-        fundo: '#FFF'
+        texto: '#969cb2',
+        text_dark: '#000',
+
+        fundo: '#e4e4e4'
     },
 
     fonts: {
