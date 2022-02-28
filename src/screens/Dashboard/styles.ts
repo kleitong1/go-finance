@@ -84,7 +84,17 @@ export const Header = styled.View`
     
     `;
 
-export const HighlightCards = styled.ScrollView``;
+export const HighlightCards = styled.ScrollView.attrs({
+        horizontal: true,
+        showsHorizontalScrollIndicator: false,
+        contentContainerStyle: { paddingHorizontal: 24 }
+})`
+    
+    width: 100%;
+    position: absolute;
+    margin-top: ${RFPercentage(30)}px;
+
+`;
 
 //  export const Texto = styled.Text`
 //      font-family: ${({theme}) => theme.fonts.bold};

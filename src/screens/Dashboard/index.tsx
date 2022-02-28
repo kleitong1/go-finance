@@ -38,7 +38,9 @@ export function Dashboard (){
                 
             </Header>
 
-        <HighlightCards horizontal={true}>
+        <HighlightCards 
+        
+        >
 
             <HighlightCard />
             <HighlightCard />
