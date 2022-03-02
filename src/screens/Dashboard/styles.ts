@@ -29,11 +29,12 @@ export const Header = styled.View`
 
     export const UserContainer = styled.View`
         width: 100%;
-
+        
         
         /* cima-baixo 0  esquerda-direita 24 */
 
         padding: 0 24px;
+        
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -42,6 +43,8 @@ export const Header = styled.View`
     export const UserInfo = styled.View`
     flex-direction: row;
     align-items: center;
+   
+    
 
     
     
@@ -60,6 +63,7 @@ export const Header = styled.View`
     color: ${({ theme }) => theme.cores.forma };
     font-size: ${RFValue(18)}px;
     font-family: ${({theme}) => theme.fonts.regular };
+    
 
     
     `;
