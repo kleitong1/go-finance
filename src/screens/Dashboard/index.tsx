@@ -1,6 +1,6 @@
 import React from "react";
 import { HighlightCard } from "../../components/HighlightCard";
-import { Title } from "../../components/HighlightCard/style";
+import { TransactionCard } from "../../components/TransactionCard";
 
 import {
   Conteiner,
@@ -59,6 +59,16 @@ export function Dashboard() {
 
       <Transactions>
         <Listagem>Listagem</Listagem>
+
+        <TransactionCard
+          title="Desenvolvimento de Site"
+          amount="R$ 12.000,00"
+          category={{
+            name: "Vendas",
+            icon: "dollar-sign",
+          }}
+          date="23/03/2022"
+        />
       </Transactions>
     </Conteiner>
   );
